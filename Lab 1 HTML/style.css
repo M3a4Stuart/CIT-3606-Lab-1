@@ -1,9 +1,13 @@
 h1 {
     text-align: center;
-    color: slategray;
+    color: steelblue;
+}
+
+::backdrop {
+    background-color: burlywood;
 }
 
 body {
     text-align: center;
-  color: cadetblue;  
+  color: lightseagreen;  
 }
