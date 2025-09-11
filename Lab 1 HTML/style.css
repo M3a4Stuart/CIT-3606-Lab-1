@@ -11,3 +11,8 @@ body {
     text-align: center;
   color: lightseagreen;  
 }
+
+p {
+    font-size: 20px;
+    color: darkslategray;
+}
