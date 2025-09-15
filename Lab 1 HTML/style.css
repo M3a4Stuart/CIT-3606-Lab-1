@@ -3,13 +3,16 @@ h1 {
     color: steelblue;
 }
 
-background {
-background-color: lightslategray;
+body {
+    background-image: url("https://wallpaperaccess.com/full/2984669.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
     text-align: center;
-  color: lightseagreen;  
+  color: white;  
 }
 
 p {
@@ -21,3 +24,6 @@ h2 {
     color: darkcyan;
 }
 
+link {
+    color: darkslateblue;
+}
