@@ -10,13 +10,18 @@
         
       <h1>Currency Converter</h1>
       <input type="text" id ="username" placeholder="Enter username">
-      <button on click="hello()"></button>
-      function hello(){
-        const name = document.getElementById("username").value;
-        alert("Hello " + name + "!");
-      }
+        <button on click="hello()"></button>
+         function hello(){
+          const name = document.getElementById("username").value;
+          alert("Hello " + name + "!");
+        }
       <input type="text" id="amount" placeholder="Enter amount">
-      
+        <button on click="convert()"></button>
+         function convert(){
+          const amount = document.getElementById("amount").value;
+          const convertedAmount = amount * 1.1; // Example conversion rate
+          alert("Converted Amount: " + convertedAmount);
+        }
       <!-- The JavaScript code is attached at the bottom of the page
            after the page is completely loaded. Write your code in script.js. -->
       <script src="script.js"></script>
