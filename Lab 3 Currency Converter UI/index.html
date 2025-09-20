@@ -13,33 +13,26 @@
         <button on click="hello()"></button>
          function hello(){
           const name = document.getElementById("username").value;
-          alert("Hello " + name + "!");
-        }
-      <input type="text" id="amount" placeholder="Enter amount">
-        <button on click="convert()"></button>
-         function convert(){
-          const amount = document.getElementById("amount").value;
-          const convertedAmount = amount * 1.1; // Example conversion rate
-          alert("Converted Amount: " + convertedAmount);}
+          alert("Hello " + name + "!");}
 
-      <select id="fromCurrency">
-        <option value="USD"></option>
-        <option value="EUR"></option>
-        <option value="GBP"></option>
-        <option value="JPY"></option>
-
+      <id ="converter">
+        <input type="number" id="amount" placeholder="Enter amount">
+        <select id="fromCurrency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
         </select>
-      <select id="toCurrency">
-        <option value="USD"></option>
-        <option value="EUR"></option>
-        <option value="GBP"></option>
-        <option value="JPY"></option>
+        <select id="toCurrency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
         </select>
+        <button id="convertButton">Convert</button>
+  
 
-      <button id="convertButton">Convert</button>
-      <div id="result"></div>
-      <button id="clearButton">Clear</button>
-      <div id="footer">CIT 3606 Lab 3 Currency Converter UI</div>
+      
 
       <!-- The JavaScript code is attached at the bottom of the page
            after the page is completely loaded. Write your code in script.js. -->
