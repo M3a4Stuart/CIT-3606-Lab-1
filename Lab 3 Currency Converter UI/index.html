@@ -7,7 +7,15 @@
     </head>
     <body>
       <!-- Add UI for Currency Converter -->
-        <h1>Currency Converter</h1>
+        
+      <h1>Currency Converter</h1>
+      <input type="text" id ="username" placeholder="Enter username">
+      <button on click="hello()"></button>
+      function hello(){
+        const name = document.getElementById("username").value;
+        alert("Hello " + name + "!");
+      }
+      <input type="text" id="amount" placeholder="Enter amount">
       
       <!-- The JavaScript code is attached at the bottom of the page
            after the page is completely loaded. Write your code in script.js. -->
