@@ -1,7 +1,7 @@
 tofixed(2);
           alert(`${amount} ${fromCurrency} is approximately ${convertedAmount} ${toCurrency}`);
 
-      const name=document.getElementByld("Currency").value;
+    const name=document.getElementByld("Currency").value;
 
       document.getElementById("convertButton").value = function() {
         const amount = document.getElementById("amount").value;
