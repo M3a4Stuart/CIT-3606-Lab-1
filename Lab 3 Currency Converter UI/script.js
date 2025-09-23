@@ -16,3 +16,5 @@ tofixed(2);
         const toCurrency = document.getElementById("toCurrency").value;
         const convertedAmount = (amount * exchangeRates[fromCurrency][toCurrency]).toFixed(2);
         alert(`${amount} ${fromCurrency} is approximately ${convertedAmount} ${toCurrency}`);};2;
+
+        
