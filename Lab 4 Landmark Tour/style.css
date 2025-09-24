@@ -1,3 +1,10 @@
-body {
-    
+body { background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
 }
+h1 { color: darkblue; }
+h2 { color: darkgreen; }
+p { font-size: 16px; }
+a { color: darkred; text-decoration: none; }
+a:hover { text-decoration: underline; }
