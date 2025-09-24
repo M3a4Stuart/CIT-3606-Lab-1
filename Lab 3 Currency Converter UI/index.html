@@ -65,6 +65,11 @@
                 }
                 if (fromCurrency === "GBP" && toCurrency === "JPY") {     
             0.0077; // Example conversion rate
+            const convertedAmount = amount * 151.0; 
+                }
+                else if (fromCurrency === toCurrency) {
+            const convertedAmount = amount; // No conversion needed
+                }
             
             <option value="JPY">JPY</option>
                 if (fromCurrency === "JPY" && toCurrency === "USD") {
@@ -75,6 +80,9 @@
                 }
                 if (fromCurrency === "JPY" && toCurrency === "GBP") {
             const convertedAmount = amount * 0.0069; // Example conversion rate
+                }
+                else if (fromCurrency === toCurrency) {
+            const convertedAmount = amount; // No conversion needed
                 }
           
           
