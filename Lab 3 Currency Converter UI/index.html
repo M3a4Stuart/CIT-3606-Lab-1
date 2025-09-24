@@ -27,10 +27,58 @@
       
       
           <select id="toCurrency">
+          
             <option value="USD">USD</option>
+              if (fromCurrency === "USD" && toCurrency === "EUR") {
+            const convertedAmount = amount * 0.85; // Example conversion rate
+                }
+              if (fromCurrency === "USD" && toCurrency === "GBP") {
+            const convertedAmount = amount * 0.72; // Example conversion rate
+                }
+              if (fromCurrency === "USD" && toCurrency === "JPY") {
+            const convertedAmount = amount * 110.0; // Example conversion rate
+                }
+                else if (fromCurrency === toCurrency) {
+            const convertedAmount = amount; // No conversion needed
+                }
+
             <option value="EUR">EUR</option>
+                if (fromCurrency === "EUR" && toCurrency === "USD") {
+            const convertedAmount = amount * 1.18; // Example conversion rate
+                }
+                if (fromCurrency === "EUR" && toCurrency === "GBP") {
+            const convertedAmount = amount * 0.85; // Example conversion rate
+                }
+                if (fromCurrency === "EUR" && toCurrency === "JPY") {
+            const convertedAmount = amount * 129.53; // Example conversion rate
+                }
+                else if (fromCurrency === toCurrency) {
+            const convertedAmount = amount; // No conversion needed
+                }
+
             <option value="GBP">GBP</option>
+                if (fromCurrency === "GBP" && toCurrency === "USD") {
+            const convertedAmount = amount * 1.39; // Example conversion rate
+                }
+                if (fromCurrency === "GBP" && toCurrency === "EUR") {
+            const convertedAmount = amount * 1.17; // Example conversion rate
+                }
+                if (fromCurrency === "GBP" && toCurrency === "JPY") {     
+            0.0077; // Example conversion rate
+            
             <option value="JPY">JPY</option>
+                if (fromCurrency === "JPY" && toCurrency === "USD") {
+            const convertedAmount = amount * 0.0091; // Example conversion rate 
+                }
+                if (fromCurrency === "JPY" && toCurrency === "EUR") {
+            const convertedAmount = amount * 0.0077; // Example conversion rate
+                }
+                if (fromCurrency === "JPY" && toCurrency === "GBP") {
+            const convertedAmount = amount * 0.0069; // Example conversion rate
+                }
+          
+          
+            
           </select>
        
 
