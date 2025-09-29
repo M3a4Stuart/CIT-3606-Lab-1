@@ -15,5 +15,16 @@ document.getElementById('Warzaw').onclick= function() {
 
 onchange=document.getElementById(imgsize).onchange=function(){
     size=document.getElementById(imgsize).value;
-    
+    if(Option=="Small"){
+        img.width=200;
+        img.height=150;
+    }
+    else if(Option=="Medium"){
+        img.width=300;
+        img.height=225;
+    }
+    else if(Option=="Large"){
+        img.width=400;
+        img.height=300;
+    }
 }
