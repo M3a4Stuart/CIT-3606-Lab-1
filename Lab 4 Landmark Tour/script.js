@@ -13,3 +13,8 @@ document.getElementById('Warzaw').onclick= function() {
     img.src="Sztuczna_palma_w_Warszawie_2025.jpg";
 }
 
+onchange=document.getElementById(imgsize).onchange=function(){
+    size=document.getElementById(imgsize).value;
+    img.width=size*3;
+    img.height=size*2;
+}
