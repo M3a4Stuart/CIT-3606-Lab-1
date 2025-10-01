@@ -1,10 +1,16 @@
-body { background-color: aquamarine;
+body { background-color: olivedrab;
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
 }
-h1 { color: darkblue; }
-h2 { color: darkgreen; }
-p { font-size: 16px; }
+h1 { color: gainsboro; text-align: center;}
+
+p { font-size: 16px; text-align: center; font: bold; font-style: oblique;}
 a { color: darkred; text-decoration: none; }
 a:hover { text-decoration: underline; }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
