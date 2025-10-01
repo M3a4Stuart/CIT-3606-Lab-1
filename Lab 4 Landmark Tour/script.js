@@ -13,18 +13,14 @@ document.getElementById('Warzaw').onclick= function() {
     img.src="Sztuczna_palma_w_Warszawie_2025.jpg";
 }
 
-onchange=document.getElementById(imgsize).onchange=function(){
-    size=document.getElementById(imgsize).value;
-    if(Option=="Small"){
+onchange=document.getElementById(imgsize).value;
+    if (onchange=="Small"){
         img.width=200;
-        img.height=150;
     }
-    else if(Option=="Medium"){
-        img.width=300;
-        img.height=225;
-    }
-    else if(Option=="Large"){
+    else if (onchange=="Medium"){
         img.width=400;
-        img.height=300;
     }
-}
+    else if (onchange=="Large"){
+        img.width=600;
+    }
+    
