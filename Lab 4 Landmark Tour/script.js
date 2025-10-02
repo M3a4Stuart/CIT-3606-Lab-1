@@ -26,7 +26,7 @@ document.getElementById(imgsize).value=onchange=function(){
     }
 }
 document.getElementById('Ukaine').checked=true;
-    iframe=document.getElementById('mapframe');
+    iframe=document.getElementById('Mapframe');
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19910.414635627865!2d30.033107092178483!3d51.40669584455878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472a7daa5b69c469%3A0x32d80be9b6bf089a!2sPryp&#39;yat&#39;%2C%20Kyiv%20Oblast%2C%20Ukraine!5e0!3m2!1sen!2sus!4v1759410809754!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 document.getElementById('Sweeden').checked=true;
