@@ -24,4 +24,4 @@ document.getElementById(imgsize).value=onchange=function(){
     else if (value=="Large"){
         img.width=600;
     }
-    
+}
