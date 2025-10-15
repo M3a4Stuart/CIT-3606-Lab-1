@@ -30,7 +30,13 @@ function drawFunction()     {
      x++;       
      y += 2;
     ctx.drawImage(myImg, x, y, 100, 100);
-}
-
 x = Math.random() * canvas.width;
 y = Math.random() * canvas.height;
+
+}
+
+
+myCanvas.onmousedown = function(event) {         
+     alert("Location " + event.clientX + ","    
+                           + event.clientY);  
+}
