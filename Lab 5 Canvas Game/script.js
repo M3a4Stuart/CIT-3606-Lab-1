@@ -40,3 +40,18 @@ myCanvas.onmousedown = function(event) {
      alert("Location " + event.clientX + ","    
                            + event.clientY);  
 }
+
+myCanvas.onmousedown = function(e) {
+    if (e.clientX > x && 
+        e.clientX < x + imageWidth &&            
+        e.clientY > y && 
+        e.clientY < y + imageHeight)  
+       {      }
+    }
+
+    function scoreFunction() {
+        score++;
+        document.getElementById("score").innerHTML = score;
+    }
+    let score = 0;
+    document.getElementById("score").innerHTML = score;
