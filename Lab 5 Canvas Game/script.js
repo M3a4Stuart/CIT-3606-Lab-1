@@ -1,23 +1,36 @@
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d");
 
-const myImg = new Image();
+const img1 = new Image();
 myImg.src = 'Netherite.png';
 myImg.onload = function(){
     ctx.drawImage(myImg, x, y, width, height); 
 
 }
 
-const myImg = new Image();
+const img2 = new Image();
 myImg.src = 'Iron.png';
 myImg.onload = function(){
     ctx.drawImage(myImg, x, y, width, height); 
 
 }
 
-const myImg = new Image();
+const img3 = new Image();
 myImg.src = 'Diamond.png';
 myImg.onload = function(){
     ctx.drawImage(myImg, x, y, width, height); 
 
 }
+
+setInterval(drawFunction, 1000);
+let x = 0, y = 0;
+function drawFunction()     {
+   
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+     x++;       
+     y += 2;
+    ctx.drawImage(myImg, x, y, 100, 100);
+}
+
+x = Math.random() * canvas.width;
+y = Math.random() * canvas.height;

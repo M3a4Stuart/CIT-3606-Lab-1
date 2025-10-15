@@ -1,6 +1,10 @@
 body {
-    background-image: url(https://motionbgs.com/media/1964/nature-in-minecraft.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    canvas{
+        background-image: url("https://motionbgs.com/media/1964/nature-in-minecraft.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
 }
