@@ -1,6 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
+function Fallout(props) {
+  return (
+    <div className="fallout-card">
+      <h2>{props.name}</h2>
+      <img src={props.image} alt={props.name} className="fallout-image" />
+      <p><strong>description:</strong> {props.description}</p>
+      <p><strong>type:</strong> {props.type}</p>
+      <p><strong>ability:</strong> {props.ability}</p>
+    </div>
+  );
+}
 
 function App() {
   return (
