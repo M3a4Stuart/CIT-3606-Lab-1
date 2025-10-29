@@ -6,7 +6,8 @@ function Fallout(props) {
     <div className="fallout-card">
       <h2>{props.name}</h2>
       <img src={props.image} alt={props.name} className="fallout-image"/>
-
+      </div>
+}
 function App() {
   return (
     <div className="App">
