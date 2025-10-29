@@ -1,13 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function Fallout(props) {
-  return (
-    <br className="fallout-card">
-      <h2>{props.name}</h2>
-      <img src={props.image} alt={props.name} className="fallout-image"/>
-      </br>
-}
+
 function App() {
   return (
     <div className="App">
