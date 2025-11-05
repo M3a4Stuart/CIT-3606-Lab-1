@@ -15,13 +15,14 @@ function Fallout(props) {
 }
 
 function Search() {
-  const {val, setVal} = React.useState("");
-{
-  const {color,setColor}=useState("blue);}
-    function clickHandler(){
-      document.getElementById("search-button").style.backgroundColor = color;
-    }
+  return (
+    <div className="search-bar">
+      <input type="text" placeholder="Search for a card..." />
+      <button>Search</button>
+    </div>
+  );
 }
+
 
 function App() {
   return (
