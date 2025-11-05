@@ -14,6 +14,13 @@ function Fallout(props) {
   );
 }
 
+function search() {
+  const {val, setVal} = React.useState("");
+
+  function handleChange(event) {
+    setVal(event.target.value);
+  }
+}
 
 function App() {
   return (
