@@ -14,12 +14,13 @@ function Fallout(props) {
   );
 }
 
-function search() {
+function Search() {
   const {val, setVal} = React.useState("");
-
-  function handleChange(event) {
-    setVal(event.target.value);
-  }
+{
+  const {color,setColor}=useState("blue);}
+    function clickHandler(){
+      document.getElementById("search-button").style.backgroundColor = color;
+    }
 }
 
 function App() {
