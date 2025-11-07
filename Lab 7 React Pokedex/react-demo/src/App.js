@@ -16,11 +16,10 @@ function Fallout(props) {
 
 function Search() {
   return (
-    <div className="search-bar">
-      <input type="text" placeholder="Search for a card..." />
-      <button>Search</button>
-    </div>
-  );
+    import { useState } from 'react';
+    function cardSearch() {
+      const [query, setQuery] = useState('');
+  )
 }
 
 
