@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import { useState } from 'react';
 
 function Fallout(props) {
   return (
@@ -13,14 +14,19 @@ function Fallout(props) {
     </div>
   );
 }
-
 function Search() {
+  const [query, setQuery] = useState('');
   return (
-    import { useState } from 'react';
-    function cardSearch() {
-      const [query, setQuery] = useState('');
-  )
+    <div>
+      <input
+        type="text"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+    </div>
+  );
 }
+
 
 
 function App() {
