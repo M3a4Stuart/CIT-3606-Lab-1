@@ -21,3 +21,11 @@ conn.connect((err) =>{
       console.log('Connected!')
 })
 
+app.post('/insert', function(req, res){
+   const sql = "INSERT INTO Students (Firstname, Lastname) VALUES (?, ?)";
+  conn.query(sql, [req.body.firstname, req.body.lastname],  
+   function (err, result) {
+      if (err) throw err;
+      res.send(“Insert successful”);
+     });
+});
