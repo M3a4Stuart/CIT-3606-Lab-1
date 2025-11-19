@@ -26,6 +26,6 @@ app.post('/insert', function(req, res){
   conn.query(sql, [req.body.firstname, req.body.lastname],  
    function (err, result) {
       if (err) throw err;
-      res.send(“Insert successful”);
+      res.send('Insert successful');
      });
 });
