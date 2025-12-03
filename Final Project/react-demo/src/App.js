@@ -133,7 +133,14 @@ function App() {
       <p>Repair Cost: Steel: 28, Aluminum: 6, Circuitry: 1</p>
     </div>
     <div classname = "armor-list">
-      
+      <h2>Raider Power Armor</h2>
+      <img src="images/Raider PA.jpg" alt="raider" />
+      <p>Damage Resitance: 150</p>
+      <p>Energy Resitance: 100</p>
+      <p>Radiation Resitance: 150</p>
+      <p>Total Durability: 150</p>
+      <p>weight: 60</p>
+      <p>Repair Cost: Steel: 15, Aluminum: 2, Circuitry: 1</p>  
     </div>
     </div>
   );
