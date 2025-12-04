@@ -89,7 +89,7 @@ function App() {
       <p>Games Aquired: Fallout 4, Fallout 76</p>
       </div>
       
-      <div classname ="armorList">
+      <div className ="armorList">
         <h2>X-03 Advanced Hellfire Power Armor</h2>
       <img src="images/X03 PA.jpg" alt="x03" />
       <p>Damage Resitance: 1800</p>
@@ -102,7 +102,7 @@ function App() {
       <p>Games Aquired: Fallout 4, Fallout 76</p>
       </div>
       
-      <div classname ="armorList">
+      <div className ="armorList">
         <h2>Vulcan Power Armor</h2>
       <img src="images/Vulcan PA.jpg" alt="vulcan" />
       <p>Damage Resitance: 560</p>
@@ -115,7 +115,7 @@ function App() {
       <p>Games Aquired: Fallout 76</p>
       </div>
 
-      <div classname ="armorList"> 
+      <div className ="armorList"> 
         <h2>Ultracite Power Armor</h2>
       <img src="images/Ultracite PA.jpg" alt="ultracite" />
       <p>Damage Resitance: 2500</p>
@@ -128,7 +128,7 @@ function App() {
       <p>Games Aquired: Fallout 76</p>
       </div>
 
-      <div classname ="armorList">
+      <div className ="armorList">
         <h2>Union Power Armor</h2>
       <img src="images/Union PA.jpg" alt="union" />
       <p>Damage Resitance: 483</p>
@@ -141,7 +141,7 @@ function App() {
       <p>Games Aquired: Fallout 76</p>
       </div>
 
-      <div classname ="armorList">
+      <div className ="armorList">
         <h2>Excavator Power Armor</h2>
       <img src="images/Excavator PA.jpg" alt="excavator" />
       <p>Damage Resitance: 240</p>
@@ -154,7 +154,7 @@ function App() {
       <p>Games Aquired: Fallout 76</p>
     </div>
 
-    <div classname ="armorList">
+    <div className ="armorList">
       <h2>Hellcat Power Armor</h2>
       <img src="images/Hellcat PA.jpg" alt="hellcat" />
       <p>Damage Resitance: 536</p>
@@ -167,7 +167,7 @@ function App() {
       <p>Games Aquired: Fallout 76</p>
     </div>
 
-    <div classname = "armorList">
+    <div className = "armorList">
       <h2>Raider Power Armor</h2>
       <img src="images/Raider PA.jpg" alt="raider" />
       <p>Damage Resitance: 150</p>
