@@ -6,13 +6,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src= 'images/logo.jpg' alt='logo' />
+        <img src= 'images/logo.png' alt='logo' />
         <h1>Power Armor index</h1>
       </header>
 
       <div className="armorList">
         <h2>T-45 Power Armor</h2>
-        <img src="images/T-45A PA.jpg" alt="t45" />
+      <img src="images/T-45A PA.png" alt="t45" />
         <p>Damge Resitance: 500</p>
         <p>Energy Resitance: 310</p>
         <p>Radiation Resitance: 1050</p>
@@ -25,7 +25,7 @@ function App() {
       
       <div className="armorList">
         <h2>T-51 Power Armor</h2>
-      <img src="images/T-51B PA.jpg" alt="t51" />
+      <img src="images/T-51B PA.png" alt="t51" />
         <p>Damage Resitance: 740</p>
         <p>Energy Resitance: 490</p>
         <p>Radiation Resitance: 1050</p>
@@ -38,7 +38,7 @@ function App() {
 
       <div className="armorList">
         <h2>T-60 Power Armor</h2>
-      <img src="images/T-60 PA.jpg" alt="t60" />
+      <img src="images/T-60 PA.png" alt="t60" />
         <p>Damage Resitance: 980</p>
         <p>Energy Resitance: 650</p>
         <p>Radiation Resitance: 1050</p>
@@ -51,7 +51,7 @@ function App() {
 
       <div className="armorList">
         <h2>T-65 Power Armor</h2>
-      <img src="images/T-65 PA.jpg" alt="t65" />
+      <img src="images/T-65 PA.png" alt="t65" />
         <p>Damage Resitance: 565</p>
         <p>Energy Resitance: 470</p>
         <p>Radiation Resitance: 470</p>
@@ -65,7 +65,7 @@ function App() {
       
       <div className="armorList">
         <h2>X-01 Advanced Power Armor</h2>
-      <img src="images/X-01 PA.jpg" alt="x01" />
+      <img src="images/X-01 PA.png" alt="x01" />
       <p>Damage Resitance: 1220</p>
       <p>Energy Resitance: 790</p>
       <p>Radiation Resitance: 1050</p>
@@ -78,7 +78,7 @@ function App() {
 
       <div classname ="armorList"> 
         <h2>X-02 Advanced Power Armor</h2>
-      <img src= 'images/X-02 PA.jpg' alt="x02" />
+      <img src= "images/X-02 PA.png" alt="x02" />
       <p>Damage Resitance: 1500</p>
       <p>Energy Resitance: 950</p>
       <p>Radiation Resitance: 1200</p>
@@ -91,7 +91,7 @@ function App() {
       
       <div className ="armorList">
         <h2>X-03 Advanced Hellfire Power Armor</h2>
-      <img src="images/X-03 PA.jpg" alt="x03" />
+      <img src="images/X-03 PA.png" alt="x03" />
       <p>Damage Resitance: 1800</p>
       <p>Energy Resitance: 1200</p>
       <p>Radiation Resitance: 1500</p>
@@ -104,7 +104,7 @@ function App() {
       
       <div className ="armorList">
         <h2>Vulcan Power Armor</h2>
-      <img src="images/Vulcan PA.jpg" alt="vulcan" />
+      <img src="images/Vulcan PA.png" alt="vulcan" />
       <p>Damage Resitance: 560</p>
       <p>Energy Resitance: 600</p>
       <p>Radiation Resitance: 200</p>
@@ -117,7 +117,7 @@ function App() {
 
       <div className ="armorList"> 
         <h2>Ultracite Power Armor</h2>
-      <img src="images/Ultracite PA.jpg" alt="ultracite" />
+      <img src="images/Ultracite PA.png" alt="ultracite" />
       <p>Damage Resitance: 2500</p>
       <p>Energy Resitance: 2000</p>
       <p>Radiation Resitance: 2200</p>
@@ -130,7 +130,7 @@ function App() {
 
       <div className ="armorList">
         <h2>Union Power Armor</h2>
-      <img src="images/Union PA.jpg" alt="union" />
+      <img src="images/Union PA.png" alt="union" />
       <p>Damage Resitance: 483</p>
       <p>Energy Resitance: 295</p>
       <p>Radiation Resitance: 265</p>
@@ -143,7 +143,7 @@ function App() {
 
       <div className ="armorList">
         <h2>Excavator Power Armor</h2>
-      <img src="images/Excavator PA.jpg" alt="excavator" />
+      <img src="images/Excavator PA.png" alt="excavator" />
       <p>Damage Resitance: 240</p>
       <p>Energy Resitance: 240</p>
       <p>Radiation Resitance: 366</p>
@@ -156,7 +156,7 @@ function App() {
 
     <div className ="armorList">
       <h2>Hellcat Power Armor</h2>
-      <img src="images/Hellcat PA.jpg" alt="hellcat" />
+      <img src="images/Hellcat PA.png" alt="hellcat" />
       <p>Damage Resitance: 536</p>
       <p>Energy Resistance: 320</p>
       <p>Radiation Resistance: 320</p>
@@ -169,7 +169,7 @@ function App() {
 
     <div className = "armorList">
       <h2>Raider Power Armor</h2>
-      <img src="images/Raider PA.jpg" alt="raider" />
+      <img src="images/Raider PA.png" alt="raider" />
       <p>Damage Resitance: 150</p>
       <p>Energy Resitance: 100</p>
       <p>Radiation Resitance: 150</p>
