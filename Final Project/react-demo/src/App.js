@@ -78,7 +78,7 @@ function App() {
 
       <div classname ="armorList"> 
         <h2>X-02 Advanced Power Armor</h2>
-      <img src="images/X-02 PA.jpg" alt="x02" />
+      <img src= 'images/X-02 PA.jpg' alt="x02" />
       <p>Damage Resitance: 1500</p>
       <p>Energy Resitance: 950</p>
       <p>Radiation Resitance: 1200</p>
