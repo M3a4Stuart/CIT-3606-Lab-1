@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: url(https://staticdelivery.nexusmods.com/mods/1151/images/thumbnails/31111/31111-1533499266-212726394.jpeg);
 }
 
 .App-logo {
@@ -13,8 +14,22 @@
   }
 }
 
+.armorList {
+  display: inline-block;
+  margin: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+.armorList h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
