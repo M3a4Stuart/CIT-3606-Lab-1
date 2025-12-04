@@ -12,7 +12,7 @@ function App() {
 
       <div className="armorList">
         <h2>T-45 Power Armor</h2>
-        <img src="images/T45A PA.jpg" alt="t45" />
+        <img src="images/T-45A PA.jpg" alt="t45" />
         <p>Damge Resitance: 500</p>
         <p>Energy Resitance: 310</p>
         <p>Radiation Resitance: 1050</p>
@@ -25,7 +25,7 @@ function App() {
       
       <div className="armorList">
         <h2>T-51 Power Armor</h2>
-      <img src="images/T51B PA.jpg" alt="t51" />
+      <img src="images/T-51B PA.jpg" alt="t51" />
         <p>Damage Resitance: 740</p>
         <p>Energy Resitance: 490</p>
         <p>Radiation Resitance: 1050</p>
@@ -38,7 +38,7 @@ function App() {
 
       <div className="armorList">
         <h2>T-60 Power Armor</h2>
-      <img src="images/T60 PA.jpg" alt="t60" />
+      <img src="images/T-60 PA.jpg" alt="t60" />
         <p>Damage Resitance: 980</p>
         <p>Energy Resitance: 650</p>
         <p>Radiation Resitance: 1050</p>
@@ -51,7 +51,7 @@ function App() {
 
       <div className="armorList">
         <h2>T-65 Power Armor</h2>
-      <img src="images/T65 PA.jpg" alt="t65" />
+      <img src="images/T-65 PA.jpg" alt="t65" />
         <p>Damage Resitance: 565</p>
         <p>Energy Resitance: 470</p>
         <p>Radiation Resitance: 470</p>
@@ -65,7 +65,7 @@ function App() {
       
       <div className="armorList">
         <h2>X-01 Advanced Power Armor</h2>
-      <img src="images/X01 PA.jpg" alt="x01" />
+      <img src="images/X-01 PA.jpg" alt="x01" />
       <p>Damage Resitance: 1220</p>
       <p>Energy Resitance: 790</p>
       <p>Radiation Resitance: 1050</p>
@@ -78,7 +78,7 @@ function App() {
 
       <div classname ="armorList"> 
         <h2>X-02 Advanced Power Armor</h2>
-      <img src="images/X02 PA.jpg" alt="x02" />
+      <img src="images/X-02 PA.jpg" alt="x02" />
       <p>Damage Resitance: 1500</p>
       <p>Energy Resitance: 950</p>
       <p>Radiation Resitance: 1200</p>
@@ -91,7 +91,7 @@ function App() {
       
       <div className ="armorList">
         <h2>X-03 Advanced Hellfire Power Armor</h2>
-      <img src="images/X03 PA.jpg" alt="x03" />
+      <img src="images/X-03 PA.jpg" alt="x03" />
       <p>Damage Resitance: 1800</p>
       <p>Energy Resitance: 1200</p>
       <p>Radiation Resitance: 1500</p>
