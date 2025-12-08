@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <image src= "images/PA-Logo.png" alt="PA-Logo" />
+        <img src= "images/PA-Logo.png" alt="PA-Logo" />
         <h1>Power Armor index</h1>
       </header>
 
@@ -25,7 +25,7 @@ function App() {
       
       <div className="armorList">
         <h2>T-51 Power Armor</h2>
-      <img src="images/T-51B-PA.png" alt="T-51" />
+      <img src="images/T-51D-PA.png" alt="T-51" />
         <p>Damage Resitance: 740</p>
         <p>Energy Resitance: 490</p>
         <p>Radiation Resitance: 1050</p>
