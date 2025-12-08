@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src= "images/PA-Logo.png" alt="PA-Logo" />
+        <img src= "images/PA-Logo.png" alt="PA-Logo"/>
         <h1>Power Armor index</h1>
       </header>
 
